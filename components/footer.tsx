@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useLanguage } from "@/lib/language-context"
 
 export function Footer() {
@@ -12,7 +13,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="text-3xl font-serif tracking-tight">SWORD</div>
+            <Image
+              src="/swordlog.png"
+              alt="Sword bv"
+              width={240}
+              height={72}
+              className="h-12 sm:h-14 md:h-16 lg:h-[4.5rem] w-auto max-w-[220px] sm:max-w-[260px] md:max-w-[300px] lg:max-w-none object-contain brightness-0 invert"
+              sizes="(max-width: 640px) 200px, (max-width: 768px) 240px, (max-width: 1024px) 280px, 320px"
+            />
             <p className="text-background/70 text-sm leading-relaxed">{t.footer.tagline}</p>
           </div>
 

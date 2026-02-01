@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, ShoppingCart } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
 import gsap from "gsap"
@@ -31,8 +32,16 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-serif tracking-tight text-foreground">SWORD</div>
+          <Link href="/" className="flex items-center shrink-0">
+            <Image
+              src="/swordlog.png"
+              alt="Sword bv"
+              width={240}
+              height={72}
+              className="h-10 sm:h-11 md:h-12 lg:h-14 w-auto max-w-[200px] sm:max-w-[220px] md:max-w-[260px] lg:max-w-none object-contain object-left"
+              priority
+              sizes="(max-width: 640px) 180px, (max-width: 768px) 200px, (max-width: 1024px) 240px, 280px"
+            />
           </Link>
 
           <div className="hidden lg:flex items-center space-x-12">
