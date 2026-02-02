@@ -34,7 +34,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
             <Image
-              src="/swordlog.png"
+              src="/swordbvlogo.jpeg"
               alt="Sword bv"
               width={240}
               height={72}

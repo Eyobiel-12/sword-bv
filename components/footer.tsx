@@ -14,7 +14,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Image
-              src="/swordlog.png"
+              src="/swordbvlogo.jpeg"
               alt="Sword bv"
               width={240}
               height={72}
