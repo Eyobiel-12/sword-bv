@@ -60,10 +60,10 @@ export function ContactSection() {
                 <div>
                   <div className="font-semibold mb-1">{t.contact.email}</div>
                   <a
-                    href="mailto:info@swordbv.com"
+                    href="mailto:Info@alpgr.com"
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    info@swordbv.com
+                    Info@alpgr.com
                   </a>
                 </div>
               </div>
@@ -83,9 +83,19 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold mb-1">{t.contact.phone}</div>
-                  <a href="tel:+31201234567" className="text-muted-foreground hover:text-foreground transition-colors">
-                    +31 20 123 4567
+                  <a href="tel:+31854015937" className="text-muted-foreground hover:text-foreground transition-colors">
+                    +31 85 401 5937
                   </a>
+                  <div className="mt-2">
+                    <a
+                      href="https://wa.me/31634657014"
+                      className="text-muted-foreground hover:text-foreground transition-colors text-sm"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      WhatsApp: +31 6 3465 7014
+                    </a>
+                  </div>
                 </div>
               </div>
               </Card>
@@ -104,7 +114,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold mb-1">{t.contact.visit}</div>
-                  <address className="text-muted-foreground not-italic">Amsterdam, Netherlands</address>
+                  <address className="text-muted-foreground not-italic">Marktplein 36, 7311 LR Apeldoorn, Nederland</address>
                 </div>
               </div>
               </Card>

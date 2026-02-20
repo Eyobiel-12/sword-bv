@@ -66,18 +66,28 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4 tracking-wide">{t.footer.contactTitle}</h3>
             <ul className="space-y-3 text-sm">
-              <li className="text-background/70">Amsterdam, Netherlands</li>
+              <li className="text-background/70">Marktplein 36, 7311 LR Apeldoorn, Nederland</li>
               <li>
                 <a
-                  href="mailto:info@swordbv.com"
+                  href="mailto:Info@alpgr.com"
                   className="text-background/70 hover:text-background transition-colors"
                 >
-                  info@swordbv.com
+                  Info@alpgr.com
                 </a>
               </li>
               <li>
-                <a href="tel:+31201234567" className="text-background/70 hover:text-background transition-colors">
-                  +31 20 123 4567
+                <a
+                  href="https://wa.me/31634657014"
+                  className="text-background/70 hover:text-background transition-colors"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  WhatsApp: +31 6 3465 7014
+                </a>
+              </li>
+              <li>
+                <a href="tel:+31854015937" className="text-background/70 hover:text-background transition-colors">
+                  +31 85 401 5937
                 </a>
               </li>
             </ul>
